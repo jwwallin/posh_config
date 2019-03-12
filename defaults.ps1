@@ -52,3 +52,4 @@ function prompt {
     $LASTEXITCODE = $origLastExitCode
     $prompt
 }
+}
