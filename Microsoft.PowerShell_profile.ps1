@@ -85,11 +85,7 @@ function get-process-for-port($port) {
 	Get-Process -Id (Get-NetTCPConnection -LocalPort $port).OwningProcess
 }
 
-<<<<<<< HEAD
 foreach ( $includeFile in ("colors", "defaults", "openssl", "unix", "development", "node") ) {
-=======
-foreach ( $includeFile in ("defaults", "openssl", "unix", "development", "node", "colors") ) {
->>>>>>> fec5ce2737f4bbded1711a697642657fdd4ec606
     if ( Test-Path $profileDir\$includeFile.ps1 ) {
         Unblock-File $profileDir\$includeFile.ps1
     . "$profileDir\$includeFile.ps1"
