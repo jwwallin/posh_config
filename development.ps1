@@ -22,3 +22,7 @@ function ga {
 function gcom {
   & git commit @args
 }
+
+function gpush {
+  & git push @args
+}
