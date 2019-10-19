@@ -11,15 +11,15 @@ function edit {
 	& "code" -g @args
 }
 
-function gs {
+function gst {
   & git status @args
 }
 
-function ga {
+function gadd {
   & git add @args
 }
 
-function gcom {
+function gcm {
   & git commit @args
 }
 
